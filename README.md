@@ -33,8 +33,11 @@ https://epw80.github.io/Cabana-Joe/
 
 ## Questions
 
-for more information or if you have a question: email [erikpw009@gmail.com](erikpw009@gmail.com).
-                                                email [antyhonyledesma12@yahoo.com](antyhonyledesma12@yahoo.com).
+for more information or if you have a question: 
+<br>
+email [erikpw009@gmail.com](erikpw009@gmail.com).
+<br>
+email [antyhonyledesma12@yahoo.com](antyhonyledesma12@yahoo.com).
 
 ## Contribution:
 
