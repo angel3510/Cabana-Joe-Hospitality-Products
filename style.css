@@ -1,0 +1,93 @@
+*  
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    
+    margin: 0;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(27, 208, 208);
+    background-image: url("https://images.ctfassets.net/rxqefefl3t5b/5N2CHqjGjH6u5XRLQW0bHX/8ee1f45669fa9f748e4ed47248791806/BeachClub_Cabanas.jpg?fl=progressive&q=80");
+    background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+form {
+    max-width: 550px;
+    width: 90%;
+    background: beige;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline:blueviolet;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3 ;
+
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-bottom: 1px solid rgb(27, 208, 208);
+    
+}
+textarea::-webkit-scrollbar {
+    width: 4px;
+
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: royalblue;
+
+}
+.center {
+    text-align: center;
+}
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, rgb(13, 191, 191), rgb(27, 144, 207));
+   color: seashell; 
+   font-size: 17px;
+   cursor: pointer;
+   border-radius: 3px;
+
+}
+.error {
+    color: red;
+
+}
+.error-border {
+    border-bottom: 1px solid red;
+
+}
+#success {
+    color:seagreen;
+}
