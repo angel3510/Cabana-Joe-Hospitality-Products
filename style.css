@@ -329,7 +329,7 @@ body.about-on .about-section {
 button {
   width: 170px;
   height: 70px;
-  background-color: rgb(64 86 153) ;
+  background-color: rgb(64 86 153);
   outline: 0 0 20px #d3c5c0;
   border: solid 1;
   cursor: pointer;
@@ -339,12 +339,10 @@ button {
   top: 118px;
   color: #fff;
   border-radius: 3%;
-  
 }
 
 button:hover {
-  background-color: #3b3b6d
-
+  background-color: #3b3b6d;
 }
 
 button:active {
@@ -352,10 +350,6 @@ button:active {
   box-shadow: 0 5px #d3c5c0;
   transform: translateY(4px);
 }
-
-
-
-
 
 .contact-text {
   position: absolute;
