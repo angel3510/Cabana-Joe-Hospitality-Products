@@ -36,11 +36,11 @@ app.set('view engine', 'hbs');
  //connect to db
  pool.getConnection((err, connection) =>  {
      if(err) throw err; //not connected
-     console.log('connected as id' + connection.threadId);
+     console.log('connected as id ' + connection.threadId);
  })
 
 const route = require('./server/routes/user');
-app.use('/', routes);
+app.use('/', route);
 
 
 

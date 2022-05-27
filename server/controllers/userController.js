@@ -1,4 +1,3 @@
-
 const mysql = require('mysql2');
 
 
@@ -25,13 +24,17 @@ pool.getConnection((err, connection) =>  {
 
     //use the connection
     connection.query('SELECT * FROM user', (err, rows) => {
+        
+        //releases the connection when finished with it
         connection.release();
 
         if(!err) {
-            res.render('home');
+            res.render('home', { rows });
         }   else {
             console.log(err);
         }
+
+        console.log('the data from the user table: \n', rows);
 
     });
 });
