@@ -1,7 +1,7 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
 require('dotenv').config();
 
@@ -24,12 +24,25 @@ app.use(express.static('public'));
 app.engine('hbs', exphbs.engine( {extname: '.hbs' }));
 app.set('view engine', 'hbs');
 
-//router
-app.get('', (req, res) => {
-    res.render('home');
-});
+//connection port
+ const pool = mysql.createPool({
+     connectionLimit : 100,
+     host            : process.env.DB_HOST,
+     user            : process.env.DB_USER,
+     password        : process.env.DB_PASS,
+     database        : process.env.DB_NAME
+ });
 
-app.get('')
+ //connect to db
+ pool.getConnection((err, connection) =>  {
+     if(err) throw err; //not connected
+     console.log('connected as id' + connection.threadId);
+ })
+
+const route = require('./server/routes/user');
+app.use('/', routes);
+
+
 
 
 app.listen(port, () => console.log(`listening on port ${port}`));
