@@ -50,7 +50,7 @@ https://epw80.github.io/Cabana-Joe-Hospitality-Products/
 ![CJHP: Erik Williams](/User-Management-System/images/cjhpMain.png)
 ![CJHP: Erik Williams](/User-Management-System/images/cjhpContactForm.png)
 
-## Demo
+## Demo of User-Management-System
 
 ## Questions
 
