@@ -6,6 +6,28 @@ The goal of this project is to modify the functionality of the Cabana Joe's Hosp
 the Website has no on-line store functionality and is coming soon. Our group took on the development of an online store with complete functionality.
 The client is able to purchase products from our newly designed website as well as receive confirmation of their purchase. When purchasing a new product, the client will also be prompted to enter payment information. At this point, the program will be utilizing stripe. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes. The applicatyion will also utilize handlebars. Handlebars is a simple templating language. It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.
 
+## Installation Instructions for User-Management-System:
+
+## Create .env file
+
+Create a .env file to store your database credentials
+
+```
+DB_HOST = localhost
+DB_NAME = usermanagement_tut
+DB_USER = root
+DB_PASS = password
+```
+
+## Installation
+
+To run this project, install it locally using npm:
+
+```
+$ npm install
+$ npm start
+```
+
 ## Built With
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
@@ -43,6 +65,7 @@ Anthony Ledesma
 Erik Williams
 
 ## License
+
 MIT License
 
 - See file
