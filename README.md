@@ -53,7 +53,7 @@ $ npm start
 
 ## Website
 
-https://github.com/EPW80/Cabana-Joe-Hospitality-Products
+https://github.com/angel3510/Cabana-Joe-Hospitality-Products/tree/main
 
 ## Deployment
 
@@ -75,7 +75,8 @@ for more information or if you have a question:
 email [erikpw009@gmail.com](erikpw009@gmail.com).
 <br>
 email [antyhonyledesma12@yahoo.com](antyhonyledesma12@yahoo.com).
-<br> [sandovalangel10@hotmail.com](sandovalangel10@hotmail.com).
+<br> 
+email [sandovalangel10@hotmail.com](sandovalangel10@hotmail.com).
 
 ## Contribution:
 
