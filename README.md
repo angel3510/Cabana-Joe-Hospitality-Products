@@ -57,7 +57,7 @@ https://github.com/angel3510/Cabana-Joe-Hospitality-Products/tree/main
 
 ## Deployment
 
-https://epw80.github.io/Cabana-Joe-Hospitality-Products/
+https://angel3510.github.io/Cabana-Joe-Hospitality-Products/
 
 ## Mock-up
 
